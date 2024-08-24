@@ -1,0 +1,135 @@
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between the contact info and form */
+}
+
+.contact-info {
+    background-color: #fb00ff;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure readability */
+    max-width: 45%; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure readability */
+    max-width: 45%; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff00b7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact-info {
+    background-color: #ff00b7;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure readability */
+    max-width: 45%; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Contact.css */
+
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    /* Add more styles as needed */
+  }
+  
+  * Styling for the contact information box */
+  
+  
+  .social-media {
+    display: flex;
+    gap: 15px; /* Adjust the gap as needed to control the spacing between icons */
+  }
+  
+  .social-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    object-fit: contain; /* Ensure images fit within the defined size */
+  }
+  

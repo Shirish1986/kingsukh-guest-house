@@ -1,0 +1,221 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.hero {
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.hero h3 {
+  text-align: left;
+  margin: 0;
+}
+
+.hero h4 {
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.hero h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+.book-now-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff00b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #ff00b7;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Container to align the button to the right */
+.button-container {
+  text-align: right;
+  margin-top: 20px; /* Adds some space above the container */
+}
+
+/* Button styling */
+.book-now-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff00b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #ff00b7;
+}
+/* Container with background image */
+.hero-with-bg {
+  background-image: url("C:\Users\shiri\Downloads\ayodhya (1).webp"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: white;
+}
+
+/* Optional: Apply some opacity to text for better readability over the background */
+
+
+
+/* Button styling */
+.book-now-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff00b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.book-now-button:hover {
+  background-color: #ff00b7;
+}
+
+/* Right-aligned button */
+.button-container {
+  text-align: right;
+  margin-top: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.gallery {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+/* src/Gallery.css */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+ 
+  
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.map-container {
+  flex: 1;
+  max-height: max-content;
+  /* Ensure map container takes available space if content is short */
+}
+
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the content takes up the full height of the viewport */
+}
+
+.hero-with-bg {
+  /* Your existing styles for hero section */
+}
+
+.map-container {
+  /* Ensure the map container expands as needed */
+}
+
+.footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  /* Your existing navbar styles */
+}
+
+/* Ensure other sections don't overlap with the footer */

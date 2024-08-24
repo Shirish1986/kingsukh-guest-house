@@ -1,0 +1,76 @@
+.about-us {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: fit-content;
+    text-align: left;
+}
+
+.about-us h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the image and text */
+}
+
+.about-us-image {
+    width: 40%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-us-text {
+    flex: 1;
+}
+
+.about-us p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.highlight h3 {
+    font-size: 2em;
+    margin: 0;
+    color: #007bff; /* Adjust color to match your theme */
+}
+
+.highlight p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.about-us a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-us a:hover {
+    text-decoration: underline;
+}

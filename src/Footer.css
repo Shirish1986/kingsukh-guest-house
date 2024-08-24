@@ -1,0 +1,99 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    margin-top: auto; /* Ensures minimum width for responsiveness */
+  }
+  
+  .footer-section h2,
+  .footer-section h3 {
+    color: #fff;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+  }
+  /* Footer.css */
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Ensure it's positioned normally */
+    margin-top: auto; /* Pushes it to the bottom of the container */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    margin-top: 0;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
